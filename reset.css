@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
   text-decoration: none;
+  color: #333;
 }
 /* HTML5 display-role reset for older browsers */
 article,

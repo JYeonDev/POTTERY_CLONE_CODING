@@ -59,8 +59,8 @@ body {
         .dropdown_title3:hover .dropdown_menu3 {
           transform: translateY(0);
           opacity: 1;
-          transition: all 0.5s;
           color: $main_black;
+          transition: all 0.5s;
         }
 
         .dropdown_menu1 {
@@ -117,7 +117,6 @@ body {
             font-size: 16px;
             font-weight: bold;
             margin: 1.5rem 10rem 1.5rem 0;
-            // margin-bottom: 10rem;
           }
         }
 
@@ -174,6 +173,7 @@ body {
           width: 100%;
           padding-right: 3rem;
           border-bottom: 1px solid $main_black;
+          color: $main_black;
           transition: all 0.5s;
         }
 
@@ -181,11 +181,14 @@ body {
           transform: translateY(-700px);
           position: absolute;
           left: 0;
-          // background-color: rgba($color: #fff, $alpha: 0.8);
           background-color: #fff;
           z-index: 2;
           width: 100%;
           opacity: 0;
+
+          .search_input {
+            color: $main_black;
+          }
         }
 
         & > span {
@@ -226,6 +229,33 @@ body {
       p {
         font-size: $main_fontSize;
         line-height: 1.5;
+      }
+    }
+  }
+
+  .section_item_list {
+    font-size: 14px;
+    .text {
+      padding-top: 4rem;
+      height: 1rem;
+      border-bottom: 1px solid $main_black;
+      .left {
+        float: left;
+      }
+      .right {
+        float: right;
+        .filter {
+          display: block;
+          text-align: right;
+        }
+        .product_menu {
+          line-height: 2rem;
+          opacity: 0;
+          li {
+            display: inline-block;
+            margin-left: 1rem;
+          }
+        }
       }
     }
   }

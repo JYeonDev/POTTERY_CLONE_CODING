@@ -66,9 +66,9 @@ body .header .nav_section_divide .nav_list_first .dropdown_title3:hover .dropdow
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
+  color: #333;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  color: #333;
 }
 
 body .header .nav_section_divide .nav_list_first .dropdown_menu1 .dropdown_section {
@@ -184,6 +184,7 @@ body .header .nav_section_divide .nav_list_second .dropdown_title4:hover .dropdo
   width: 100%;
   padding-right: 3rem;
   border-bottom: 1px solid #333;
+  color: #333;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -197,6 +198,10 @@ body .header .nav_section_divide .nav_list_second .dropdown_menu4 {
   z-index: 2;
   width: 100%;
   opacity: 0;
+}
+
+body .header .nav_section_divide .nav_list_second .dropdown_menu4 .search_input {
+  color: #333;
 }
 
 body .header .nav_section_divide .nav_list_second > span {
@@ -248,5 +253,38 @@ body .section_main_poster .text h3 {
 body .section_main_poster .text p {
   font-size: 12px;
   line-height: 1.5;
+}
+
+body .section_item_list {
+  font-size: 14px;
+}
+
+body .section_item_list .text {
+  padding-top: 4rem;
+  height: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+body .section_item_list .text .left {
+  float: left;
+}
+
+body .section_item_list .text .right {
+  float: right;
+}
+
+body .section_item_list .text .right .filter {
+  display: block;
+  text-align: right;
+}
+
+body .section_item_list .text .right .product_menu {
+  line-height: 2rem;
+  opacity: 0;
+}
+
+body .section_item_list .text .right .product_menu li {
+  display: inline-block;
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
