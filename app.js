@@ -1,8 +1,9 @@
+const TEXT = document.querySelector(".text");
 const FILTER = document.querySelector(".filter");
-const PRODUCT_MENU = document.querySelector(".product_menu");
+const PRODUCT_MENU = document.querySelector(".item_menu");
 
 const onClick = () => {
-  console.log("hi");
+  PRODUCT_MENU.classList.toggle("toggle");
 };
 
 FILTER.addEventListener("click", onClick);
