@@ -5,7 +5,75 @@
       position: fixed;
       top: 0;
       width: calc(100% - 1rem);
+      margin: 0;
+      padding-top: 1rem;
+      &.active {
+        height: 100%;
+        background-color: white;
+      }
+      &::after {
+        top: 2.5rem;
+      }
       .nav_section_divide {
+        position: relative;
+        .nav_list_first {
+          display: none;
+          &.active {
+            display: flex;
+            flex-direction: column;
+            background-color: blanchedalmond;
+            position: absolute;
+            top: 1.5rem;
+            left: -7rem;
+            width: 100vw;
+          }
+          .dropdown_title1,
+          .dropdown_title2,
+          .dropdown_title3 {
+            width: 95%;
+            margin-top: 1rem;
+            margin-left: 12px;
+            border-bottom: 1px solid black;
+            &::after {
+              content: "▿";
+              float: right;
+              margin-right: 1rem;
+              margin-bottom: 1rem;
+            }
+            .dropdown_menu1,
+            .dropdown_menu2,
+            .dropdown_menu3 {
+              padding: 0;
+              margin-left: 24px;
+              margin-top: 18px;
+              flex-direction: column;
+            }
+            .dropdown_menu1 {
+              .dropdown_section {
+              }
+            }
+            .dropdown_menu2 {
+              .dropdown_section {
+              }
+            }
+            .dropdown_menu3 {
+              .dropdown_section {
+              }
+            }
+          }
+        }
+        .nav_list_second {
+          .dropdown_title4,
+          .dropdown_title5,
+          .dropdown_title6 {
+            display: none;
+          }
+        }
+        .icons {
+          .icon {
+            margin-left: 1rem;
+          }
+        }
       }
     }
     .section_main_poster {
