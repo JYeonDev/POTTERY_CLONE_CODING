@@ -205,6 +205,10 @@ body .header .nav_section_divide .nav_list_second > span {
   margin-left: 2rem;
 }
 
+body .header .icons {
+  display: none;
+}
+
 body .section_main_poster {
   display: -webkit-box;
   display: -ms-flexbox;

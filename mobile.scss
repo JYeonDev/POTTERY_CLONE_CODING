@@ -46,18 +46,33 @@
               padding: 0;
               margin-left: 24px;
               margin-top: 18px;
-              flex-direction: column;
+              // flex-direction: column;
             }
             .dropdown_menu1 {
               .dropdown_section {
+                .menu_bold {
+                  a {
+                    white-space: nowrap;
+                  }
+                }
               }
             }
             .dropdown_menu2 {
               .dropdown_section {
+                .menu_bold {
+                  a {
+                    white-space: nowrap;
+                  }
+                }
               }
             }
             .dropdown_menu3 {
               .dropdown_section {
+                .menu_bold {
+                  a {
+                    white-space: nowrap;
+                  }
+                }
               }
             }
           }
@@ -70,6 +85,7 @@
           }
         }
         .icons {
+          display: flex;
           .icon {
             margin-left: 1rem;
           }
